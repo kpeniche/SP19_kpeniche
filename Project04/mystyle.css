@@ -1,0 +1,34 @@
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #ffffff;
+	background-image: url(images/background.jpg);
+}
+
+.centerAndWidth{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#graphic{
+	height: 790px;
+	background-color: #ffffff;
+	background-image: url(images/graphic01.jpg);
+}
+
+
+#info01{
+	height: 552.35px;
+	background-color: #ffffff;
+	background-image: url(images/info01.jpg);
+}
+
+#info02{
+	height: 150px;
+	background-color: #ffffff;
+	font-size: 1.90em;
+	font-family: Bodoni72, serif; 
+	text-align: center;
+	color: black;
+	padding-top: 25px;
+}

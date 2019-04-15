@@ -1,0 +1,388 @@
+body{
+	margin: 0 auto;
+	padding: 0 auto;
+	background-color: #000000;
+}
+
+#banner{
+	width: auto;
+	height: 200px;
+	background-color: #ffffff;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+#logo{
+	width: 300px;
+	height: 300px;
+	background-color: transparent;
+	position: relative;
+	margin: 0 auto;
+	top: 30px;
+}
+
+.logo{
+	width: 300px;
+	height: 300px;
+}
+
+
+#link01, #link02, #link03, #link04{
+	text-decoration: none;
+	font-size: 25px
+}
+
+#button{
+	width: 100px;
+	height: 200px;
+	background-color: #ff0000;
+	transition: all .75s;
+	padding: 0 20 0 20;
+	margin: 0 auto;
+	position: relative;
+}
+
+.buttonShape01{
+	right: 500px;
+	bottom: 325px;
+}
+
+.buttonShape02{
+	right: 295px;
+	bottom: 550px;
+}
+
+.buttonShape03{
+	left: 295px;
+	bottom: 775px;
+}
+
+.buttonShape04{
+	left: 500px;
+	bottom: 1000;
+}
+
+#button:hover{
+	cursor: pointer;
+	background-color: #000000;
+}
+
+#button p{
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 90px
+}
+
+a:visited, p:visited{
+	color: #808080;
+}
+
+#button p:hover{
+	color: #ff0000;
+}
+
+#button p:active{
+	color: #ffffff;
+}
+
+
+
+
+/*Layer 01 Begins*/
+
+#layer01{
+	width: 1275px;
+	height: 500px;
+	background-color: #000000;
+	margin: 0 auto;
+}
+
+#photo01{
+	width: auto;
+	height: 500px;
+	background-color: #000000;
+	margin: 50 0 50 0;
+	position: relative;
+	top: 100px;
+}
+
+.photo01{
+	background-image: url(http://delreydeli.com/wp-content/uploads/2017/07/slide_1.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 2000px 1500px;
+}
+
+
+
+/*Layer 02 Begins*/
+
+#layer02{
+	width: 1000px;
+	height: 500px;
+	background-color: #000000;
+	margin: 0 auto;
+}
+
+#history{
+	width: 600px;
+	height: 500px;
+	background-color: #ffffff;
+	position: relative;
+	top: 150px;
+	right: 130px;
+}
+
+#redBox{
+	width: 600px;
+	height: 70px;
+	background-color: #ff0000;
+}
+
+.redBox01{
+	position: relative;
+	top: 40px;
+}
+
+.header{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 50px;
+	letter-spacing: 1.2px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: left;
+	position: relative;
+	top: -25px;
+	left: 30px;
+}
+
+#body{
+	width: 500px;
+	height: 200px;
+	background-color: #ffffff;
+	position: left;
+}
+
+#body p{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 20px;
+	letter-spacing: 1px;
+	color: #000000;
+	line-height: 23pt;
+	text-align: left;
+	position: relative;
+	left: 30px;
+}
+
+#photo02{
+	width: 600;
+	height: 500px;
+	background-color: #000000;
+	margin: 50 0 50 0;
+	position: relative;
+	top: -400px;
+	left: 530px;
+}
+
+.photo02{
+	background-image: url(https://delreydeli.com/wp-content/uploads/2017/07/delrey-about.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 700px 600px;
+}
+
+
+
+
+/*Layer 03 Begins*/
+
+#layer03{
+	width: 1000px;
+	height: 500px;
+	background-color: #000000;
+	margin: 0 auto;
+}
+
+#menu{
+	width: 1260px;
+	height: 855px;
+	background-color: #ffffff;
+	position: relative;
+	top: 200px;
+	right: 130px;
+}
+
+#redBox02{
+	width: 1260px;
+	height: 70px;
+	background-color: #ff0000;
+	position: relative;
+	top: 40px;
+}
+
+.header02{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 50px;
+	letter-spacing: 1.2px;
+	color: #ffffff;
+	text-transform: uppercase;
+	text-align: center;
+	position: relative;
+	top: -25px;
+	left: 570px;
+
+}
+
+#menuPhoto01{
+	width: 600px;
+	height: 700px;
+	background-color: #ffffff;
+	position: absolute;
+	left: 30px;
+}
+
+.menu01{
+	background-image: url(http://delreydeli.com/wp-content/uploads/2018/05/Soft_Menu5.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 600px 700px;
+}
+
+#menuPhoto02{
+	width: 600px;
+	height: 700px;
+	background-color: #ffffff;
+	position: absolute;
+	right: 30;
+}
+
+.menu02{
+	background-image: url(http://delreydeli.com/wp-content/uploads/2018/05/Soft_Menu52.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 600px 700px;
+}
+
+
+/*Layer 04 Begins*/
+
+#layer04{
+	width: 1000px;
+	height: 500px;
+	background-color: #000000;
+	margin: 0 auto;
+}
+
+#location{
+	width: 600px;
+	height: 500px;
+	background-color: #ffffff;
+	position: relative;
+	top: 600px;
+	right: 130px;
+}
+
+.redBox03{
+	position: relative;
+	top: 40px;
+}
+
+
+#photo03{
+	width: 550;
+	height: 500px;
+	background-color: #ffffff;
+	margin: 50 0 50 0;
+	position: relative;
+	left: 550px;
+	top: 50px;
+}
+
+
+/*Layer05 Begins*/
+
+#layer05{
+	width: 1000px;
+	height: 500px;
+	background-color: #000000;
+	margin: 0 auto;
+}
+
+#press{
+	width: 600px;
+	height: 500px;
+	background-color: #ffffff;
+	position: relative;
+	top: 650px;
+	left: 530px;
+}
+
+#redBox{
+	width: 600px;
+	height: 70px;
+	background-color: #ff0000;
+}
+
+.redBox04{
+	position: relative;
+	top: 40px;
+}
+
+
+#photo04{
+	width: 600;
+	height: 500px;
+	background-color: #000000;
+	margin: 50 0 50 0;
+	position: relative;
+	top: -600px;
+	right: 660px;
+}
+
+.photo04{
+	background-image: url(http://delreydeli.com/wp-content/themes/delreydelico/img/home-section-1-photo.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 700px 700px;
+}
+
+#article01{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 30px;
+	bottom: 50px;
+}
+
+.article01{
+	width: 250px;
+	height: 175px;
+}
+
+#article02{
+	width: 100px;
+	height: 100px;
+	position: relative;
+	left: 320px;
+	bottom: 150px;
+}
+
+.article02{
+	width: 250px;
+	height: 175px;
+}
+
+#article01, #article02:hover{
+	cursor: pointer;
+	background-color: #000000;
+}
+
+
+
+
+
+
+
+
